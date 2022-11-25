@@ -1,4 +1,5 @@
 .container-grid {
+  font-size: 120%;
   margin: 2%;
 
   .table-grid {
@@ -6,25 +7,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding: 3%;
-    .table-grid1 {
-      text-align: center;
-    }
 
-    .table-grid2 {
+    .table-grid1,
+    .table-grid2,
+    .table-grid3,
+    .table-grid4,
+    .table-grid5,
+    .table-grid6 {
       text-align: center;
-    }
-    .table-grid3 {
-      text-align: center;
-    }
-    .table-grid4 {
-      text-align: center;
-    }
-    .table-grid5 {
-      text-align: center;
-    }
-
-    .size-grid {
-      font-size: 150%;
     }
   }
 }
