@@ -1,0 +1,44 @@
+.contacto-main {
+  text-align: center;
+
+  .contacto-form {
+    background-color: $secundaryColor;
+    padding: 3%;
+    margin: 5%;
+    border-radius: 8%;
+    text-align: center;
+
+    .contacto-subtittle {
+      font-size: 3rem;
+    }
+
+    .contacto-input,
+    .contacto-textarea,
+    .contacto-boton {
+      padding: 10px;
+    }
+
+    .contacto-input,
+    textarea {
+      width: 100%;
+      padding-top: 2%;
+      margin-top: 2%;
+      text-align: center;
+      background-color: white;
+      border: none;
+    }
+
+    #boton {
+      background-color: white;
+      border-radius: 5px;
+      font-size: 30px;
+      margin-top: 5px;
+      width: 25%;
+      border-radius: 10px;
+
+      &hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

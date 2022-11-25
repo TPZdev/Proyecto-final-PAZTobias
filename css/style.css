@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: rgba(204, 85, 204, 0.4);
+  background-color: #ffeaff;
 }
 
 .main-tittle {
@@ -82,6 +82,45 @@ body {
 }
 .container-grid .table-grid .size-grid {
   font-size: 150%;
+}
+
+.contacto-main {
+  text-align: center;
+}
+.contacto-main .contacto-form {
+  background-color: #c9c9c9;
+  padding: 3%;
+  margin: 5%;
+  border-radius: 8%;
+  text-align: center;
+}
+.contacto-main .contacto-form .contacto-subtittle {
+  font-size: 3rem;
+}
+.contacto-main .contacto-form .contacto-input,
+.contacto-main .contacto-form .contacto-textarea,
+.contacto-main .contacto-form .contacto-boton {
+  padding: 10px;
+}
+.contacto-main .contacto-form .contacto-input,
+.contacto-main .contacto-form textarea {
+  width: 100%;
+  padding-top: 2%;
+  margin-top: 2%;
+  text-align: center;
+  background-color: white;
+  border: none;
+}
+.contacto-main .contacto-form #boton {
+  background-color: white;
+  border-radius: 5px;
+  font-size: 30px;
+  margin-top: 5px;
+  width: 25%;
+  border-radius: 10px;
+}
+.contacto-main .contacto-form #botonhover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
