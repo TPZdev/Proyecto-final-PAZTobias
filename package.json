@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/TPZdev/Segundapreentrega/issues"
   },
-  "homepage": "https://github.com/TPZdev/Segundapreentrega#readme"
+  "homepage": "https://github.com/TPZdev/Segundapreentrega#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
 }
