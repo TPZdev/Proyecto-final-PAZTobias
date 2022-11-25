@@ -1,9 +1,15 @@
-.footer-img {
-  max-width: 7%;
-  padding-right: 1rem;
-}
-
 .footer-container {
   text-align: center;
   background-color: $secundaryColor;
+
+  .footer-img {
+    max-width: 7%;
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .footer-img {
+    max-width: 8%;
+  }
 }

@@ -1,0 +1,16 @@
+.fila {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  .columna-img {
+    border-radius: 20%;
+    padding: 5%;
+    width: 100%;
+  }
+  .columna-parraf {
+    text-align: center;
+    padding: 2%;
+    font-size: 120%;
+  }
+}
