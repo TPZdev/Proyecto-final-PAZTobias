@@ -1,0 +1,30 @@
+.container-grid {
+  margin: 2%;
+
+  .table-grid {
+    background-color: rgb(211, 211, 211);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 3%;
+    .table-grid1 {
+      text-align: center;
+    }
+
+    .table-grid2 {
+      text-align: center;
+    }
+    .table-grid3 {
+      text-align: center;
+    }
+    .table-grid4 {
+      text-align: center;
+    }
+    .table-grid5 {
+      text-align: center;
+    }
+
+    .size-grid {
+      font-size: 150%;
+    }
+  }
+}
